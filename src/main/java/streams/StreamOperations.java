@@ -66,7 +66,7 @@ public class StreamOperations {
                 .sorted()
                 .filter(v->v.startsWith("c"))
                 .map(v->v.toUpperCase())
-                .map(v->v.transform(w->"yummy "+w))
+                .map(v->v.transform(w->"yummy " + w))
                 .forEach(System.out::println);
 
     }
